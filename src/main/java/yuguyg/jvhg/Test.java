@@ -31,7 +31,7 @@ public class Test {
 		 extent = new ExtentReports();
         extent.attachReporter(rep);	
 	}
-
+//This is frist code
 	@org.testng.annotations.Test
 	
 	public void FristCase()  throws MalformedURLException, InterruptedException {
@@ -62,6 +62,7 @@ public class Test {
 	public void close() {
 		extent.flush();
 		extent.close();
+		//this is second code
 	}
 	
 	
